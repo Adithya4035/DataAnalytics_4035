@@ -1,0 +1,6 @@
+cachelib
+flask
+flask-session
+gunicorn
+python-dotenv
+werkzeug
