@@ -9,6 +9,7 @@ This project implements a sarcasm detection system using machine learning and in
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [File Structure](#file-structure)
+- [Sample Output](#Sample-Output)
 - [Contributing](#contributing)
 
 ## Overview
@@ -79,7 +80,7 @@ sarcasm-detector/
 ├── requirements.txt
 └── README.md       # You are here!
 ```
-##Sample Output
+## Sample Output
 
 ![image](https://github.com/user-attachments/assets/63a6d331-a362-4d3f-8376-18d8b762a0d1)
 
