@@ -1,9 +1,4 @@
-Certainly! Here's a basic template for your README file on GitHub. You can customize and expand it based on your project's specifics:
-
----
-
 # Sarcasm Detector
-
 This project implements a sarcasm detection system using machine learning and integrates it into a web application using Flask. Users can input text, and the system predicts the likelihood of sarcasm in the text.
 
 ## Table of Contents
@@ -15,21 +10,17 @@ This project implements a sarcasm detection system using machine learning and in
 - [Technologies Used](#technologies-used)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
-
 The Sarcasm Detector project leverages a logistic regression model trained on a dataset of Reddit comments. It preprocesses text data using TF-IDF vectorization and predicts sarcasm scores for user inputs. The backend is implemented in Python using Flask, and the frontend uses HTML, CSS, and JavaScript with Chart.js for visualization.
 
 ## Features
-
 - **Sarcasm Detection**: Predicts sarcasm scores for user-provided text inputs.
 - **Interactive UI**: Displays sarcasm scores dynamically using Chart.js and changes images based on the predicted score.
 - **Training and Evaluation**: Includes functionality to train the sarcasm detection model and evaluate its performance.
 - **Persistence**: Saves trained models and vectorizers for reuse.
 
 ## Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/sarcasm-detector.git
@@ -48,7 +39,6 @@ The Sarcasm Detector project leverages a logistic regression model trained on a 
    ```
 
 ## Usage
-
 1. Train the model (if necessary):
    ```bash
    python models.py
@@ -94,10 +84,4 @@ sarcasm-detector/
 
 Contributions are welcome! Please fork the repository and create a pull request with your suggested improvements.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to expand each section with more details specific to your project. Good luck with your GitHub repository!
