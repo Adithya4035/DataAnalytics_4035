@@ -79,6 +79,12 @@ sarcasm-detector/
 ├── requirements.txt
 └── README.md       # You are here!
 ```
+##Sample Output
+
+![image](https://github.com/user-attachments/assets/63a6d331-a362-4d3f-8376-18d8b762a0d1)
+
+![image](https://github.com/user-attachments/assets/1410501d-931a-4644-ba2f-babe11233b82)
+
 
 ## Contributing
 
