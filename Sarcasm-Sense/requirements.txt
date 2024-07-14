@@ -1,0 +1,8 @@
+flask
+waitress
+joblib
+numpy
+scikit-learn
+pandas
+tailwindcss
+axios

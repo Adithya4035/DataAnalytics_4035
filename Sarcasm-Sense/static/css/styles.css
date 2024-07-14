@@ -1,0 +1,60 @@
+@import url("https://cdn.jsdelivr.net/npm/tailwindcss@3.4.3/base.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css");
+
+@media (max-width: 768px) {
+  #mobile-menu {
+    display: block;
+  }
+  .desktop-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  #mobile-menu {
+    display: none;
+  }
+  .desktop-nav {
+    display: flex;
+  }
+}
+
+/* Radial Progress Bar */
+.radial-progress {
+  --size: 100px;
+  --thickness: 8px;
+  --value: 0;
+  width: var(--size);
+  height: var(--size);
+  background: conic-gradient(
+    blue var(--value)%, 
+    lightgray var(--value)% 100%
+  );
+  border-radius: 50%;
+  position: relative;
+}
+
+.radial-progress::after {
+  content: '';
+  position: absolute;
+  top: var(--thickness);
+  left: var(--thickness);
+  right: var(--thickness);
+  bottom: var(--thickness);
+  background: white;
+  border-radius: 50%;
+}
+
+/* Home Button */
+.home-button {
+  background-color: #1a202c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #2d3748;
+}
